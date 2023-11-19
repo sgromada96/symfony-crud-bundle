@@ -12,5 +12,10 @@
       "email": "szymon.gromada@gmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+        "Sgromada\\SymfonyCrudBundle\\": "src/"
+        }
+    }
 }

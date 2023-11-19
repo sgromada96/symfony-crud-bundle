@@ -1,6 +1,6 @@
 <?php
 
-namespace Sgromada\Trait;
+namespace Sgromada\SymfonyCrudBundle;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
