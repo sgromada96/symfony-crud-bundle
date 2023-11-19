@@ -1,6 +1,7 @@
 Example of use:
 
-#[Route('examination', name: 'panel_examination_')]
+'
+#[Route('example', name: 'panel_example_')]
 class ExampleController extends AbstractController
 {
     use CrudTrait;
@@ -13,9 +14,10 @@ class ExampleController extends AbstractController
     ) {
     }
 }
+''
 
-Then create twig files in directory 
-example/index.html.twig,
-example/show.html.twig,
-example/update.html.twig,
-example/create.html.twig,
+Then create twig files in directory  and call routes
+example/index.html.twig => panel_example_index
+example/show.html.twig => panel_example_show
+example/update.html.twig => panel_example_update
+example/create.html.twig => panel_example_create
