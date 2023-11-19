@@ -1,0 +1,16 @@
+{
+  "name": "sgromada/symfony-crud-bundle",
+  "description": "Provides a trait to rapidly create CRUD",
+  "type": "library",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Szymon Gromada",
+      "email": "szymon.gromada@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
